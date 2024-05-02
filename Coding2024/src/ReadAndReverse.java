@@ -21,7 +21,7 @@ public class ReadAndReverse {
 		         .forEachRemaining(out::println);
 		}catch (Exception e) {
 
-			System.out.println(" There was an eroor while reading or Writing File, PLease check exception for details"+e.getMessage());
+			System.out.println(" There was an error while reading or Writing File, PLease check exception for details"+e.getMessage());
 		}
 		
 		
