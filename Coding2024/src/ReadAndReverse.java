@@ -12,6 +12,7 @@ public class ReadAndReverse {
 		System.out.println("Welcome HSBC, Thank You for Considering my Candidature for the Role");
 		System.out.println("Reading input file input.txt in the project");
 		System.out.println("#####################");
+		
 		try(PrintWriter out = 
 		        new PrintWriter(Files.newBufferedWriter(Paths.get("output.txt")))) {
 		    Files.lines(Paths.get("input.txt"))
